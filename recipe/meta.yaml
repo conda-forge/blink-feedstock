@@ -1,5 +1,5 @@
 {% set name = "blink" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/jart/blink/releases/download/{{ version }}/blink-{{ version }}.tar.gz
-    sha256: 09ffc3cdb57449111510bbf2f552b3923d82a983ef032ee819c07f5da924c3a6
+    sha256: 9ac213c7d34a672d2077e79a2aaa85737eb1692d6e533ab2483c07369c60d834
     patches:
       - patches/0001-b31fed832b10d32eadaec885fb20dacbb0eb6986.patch
 
